@@ -1,0 +1,58 @@
+             VIM Cheat Sheet
+------------------------------------------
+################ Movement ################
+h		Cursor left
+l 		Cursor right
+j		Cursor down
+k		Cursor up
+H 		Go to top
+M 		Go to middle
+L 		Go to bottom
+w		Jump to start of the word
+e		Jump to end of the word
+0		Jump to line start
+$ 		Jump to end of the line
+
+################ Editing ################
+a		Append
+A		Append end of the line
+i		Insert
+I		Insert end of the line
+s		Delete char and insert
+S		Delete line and insert
+r		Replace char
+R		Replace mode
+u		Undo
+Ctrl+R 		Redo
+x		Delete char
+dd		Delete line
+yy		Copy line
+p		Paste
+P 		Paste before
+
+
+################ Visual #################
+v		Visual mode
+V		Visual line mode
+Ctrl+V 		Visual block mode
+y		Copy
+s 		Replace
+d		Delete
+
+################# File ##################
+:q		Close
+:q!		Close without changes
+:qa		Close all
+:qa!		Close all without changes
+:wq		Write (save) and close
+ZZ		Save and quit
+ZQ		Quit without changes
+:new		Open new file
+:vnew		Open new file vertical
+:tabnew		Open file in new tab
+Ctrl+W+h	Move to the left window
+Ctrl+W+l 	Move to the right window
+Ctrl+W+j 	Move to the bottom window
+Ctrl+W+k 	Move to the up window
+gT		Previous tab
+gt		Next tab
